@@ -26,24 +26,21 @@ export const IndexPageTemplate = ({
     >
       <div
         className="hero-body has-text-centered"
-        style={{
-
-        }}
       >
         <h1
-          className="title is-1 is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+          className="title is-1 is-size-2-mobile is-size-1-widescreen"
           style={{
-            color: 'white-ter',
+            color: 'white',
             lineHeight: '1',
-            padding: '0.25em',
+            padding: '0.25em'
           }}
         >
           {title}
         </h1>
         <h3
-          className="subtitle is-3 is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+          className="subtitle is-3 is-size-5-mobile is-size-5-tablet"
           style={{
-            color: 'white-ter',
+            color: 'white',
             lineHeight: '1',
             padding: '0.25em',
           }}
