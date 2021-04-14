@@ -22,10 +22,10 @@ const TagsPage = ({
             style={{ marginBottom: '6rem' }}
           >
             <h1 className="title is-size-2 is-bold-light">Tags</h1>
-            <ul className="taglist">
+            <ul className="taglist tags are-rounded">
               {group.map((tag) => (
                 <li key={tag.fieldValue}>
-                  <Link className="button is-rounded"  to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+                  <Link className="tag"  to={`/tags/${kebabCase(tag.fieldValue)}/`}>
                     {tag.fieldValue} ({tag.totalCount})
                   </Link>
                 </li>
