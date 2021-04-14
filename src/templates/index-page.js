@@ -5,12 +5,7 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import BlogRoll from "../components/BlogRoll";
 
-export const IndexPageTemplate = ({
-  image,
-  title,
-  subheading,
-  mainpitch
-}) => (
+export const IndexPageTemplate = ({ image, title, subheading, mainpitch }) => (
   <div>
     <div
       className="full-width-image margin-top-0 hero is-large"
@@ -83,7 +78,7 @@ IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   subheading: PropTypes.string,
-  mainpitch: PropTypes.object
+  mainpitch: PropTypes.object,
 };
 
 const IndexPage = ({ data }) => {
