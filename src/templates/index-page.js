@@ -1,10 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import React from "react";
+import PropTypes from "prop-types";
+import { Link, graphql } from "gatsby";
 
-import Layout from '../components/Layout'
-import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
+import Layout from "../components/Layout";
+import Features from "../components/Features";
+import BlogRoll from "../components/BlogRoll";
 
 export const IndexPageTemplate = ({
   image,
@@ -24,15 +24,13 @@ export const IndexPageTemplate = ({
         backgroundAttachment: `fixed`,
       }}
     >
-      <div
-        className="hero-body has-text-centered"
-      >
+      <div className="hero-body has-text-centered">
         <h1
           className="title is-1 is-size-2-mobile is-size-1-widescreen"
           style={{
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em'
+            color: "white",
+            lineHeight: "1",
+            padding: "0.25em",
           }}
         >
           {title}
@@ -40,9 +38,9 @@ export const IndexPageTemplate = ({
         <h3
           className="subtitle is-3 is-size-5-mobile is-size-5-tablet"
           style={{
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
+            color: "white",
+            lineHeight: "1",
+            padding: "0.25em",
           }}
         >
           {subheading}
@@ -60,11 +58,11 @@ export const IndexPageTemplate = ({
                     <h1 className="title">{mainpitch.title}</h1>
                   </div>
                   <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                    <p className="subtitle">{mainpitch.description}</p>
                   </div>
                 </div>
                 <Features gridItems={intro.blurbs} />
-                <div className="column is-12">
+                <div className="column is-12 p-0">
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest stories
                   </h3>
@@ -82,7 +80,7 @@ export const IndexPageTemplate = ({
       </div>
     </section>
   </div>
-)
+);
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -92,10 +90,10 @@ IndexPageTemplate.propTypes = {
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
-}
+};
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  const { frontmatter } = data.markdownRemark;
 
   return (
     <Layout>
@@ -109,8 +107,8 @@ const IndexPage = ({ data }) => {
         intro={frontmatter.intro}
       />
     </Layout>
-  )
-}
+  );
+};
 
 IndexPage.propTypes = {
   data: PropTypes.shape({
@@ -118,9 +116,9 @@ IndexPage.propTypes = {
       frontmatter: PropTypes.object,
     }),
   }),
-}
+};
 
-export default IndexPage
+export default IndexPage;
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
@@ -156,4 +154,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
