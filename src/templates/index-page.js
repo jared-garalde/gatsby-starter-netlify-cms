@@ -1,14 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
-
+import logo from "../img/logo.svg";
 import Layout from "../components/Layout";
 import BlogRoll from "../components/BlogRoll";
 
 export const IndexPageTemplate = ({ image, title, subheading, mainpitch }) => (
   <div>
     <div
-      className="full-width-image margin-top-0 hero is-large"
+      className="full-width-image margin-top-0 hero is-medium"
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
@@ -18,12 +18,16 @@ export const IndexPageTemplate = ({ image, title, subheading, mainpitch }) => (
       }}
     >
       <div className="hero-body has-text-centered">
+        <img
+          src={logo}
+          alt="P vs. W"
+          style={{ width: "14em", height: "10em" }}
+        />
         <h1
-          className="title is-1 is-size-2-mobile is-size-1-widescreen"
+          className="title is-1 is-size-2-mobile is-size-1-widescreen has-text-bold"
           style={{
             color: "white",
             lineHeight: "1",
-            padding: "0.25em",
           }}
         >
           {title}
@@ -38,6 +42,7 @@ export const IndexPageTemplate = ({ image, title, subheading, mainpitch }) => (
         >
           {subheading}
         </h3>
+        <button className="button is-primary">Listen Now</button>
       </div>
     </div>
     <section className="section section--gradient">
@@ -55,7 +60,7 @@ export const IndexPageTemplate = ({ image, title, subheading, mainpitch }) => (
                   </div>
                 </div>
                 <div className="column is-12 p-0">
-                  <h3 className="has-text-weight-semibold is-size-2">
+                  <h3 className="has-text-weight-semibold is-size-3">
                     Latest stories
                   </h3>
                   <BlogRoll />
