@@ -5,10 +5,9 @@ image: /img/carmela-asistio-6wxqxprpl3w-unsplash.jpeg
 heading: Test
 subheading: Sharing stories through lived experiences
 mainpitch:
-  title: Why Kaldi
+  title: The Podcast
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Pinoys vs. the World is a space to share their stories and bring in friends
+    and guests to share their lived experiences as a platform for solidarity,
+    community, and creativity. Hosted by Harald Hyllseth and Jess Juanich.
 ---
