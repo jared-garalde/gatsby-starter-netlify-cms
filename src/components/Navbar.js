@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import logo from "../img/logo.svg";
+import instagram from "../img/social/instagram.svg";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -58,7 +59,7 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-end has-text-centered">
+            <div className="navbar-start has-text-centered">
               <Link className="navbar-item" to="/about">
                 About
               </Link>
@@ -68,6 +69,23 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact">
                 Contact
               </Link>
+            </div>
+            <div className="navbar-end has-text-centered">
+              <div className="navbar-item">
+                <div className="grouped icon-text">
+                  <a
+                    className="button is-primary"
+                    href="https://instagram.com/pinoysvs"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="icon is-small">
+                      <img src={instagram} alt="Instagram"></img>
+                    </span>
+                    <span>Follow</span>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

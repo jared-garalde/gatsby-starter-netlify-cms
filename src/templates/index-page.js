@@ -42,7 +42,12 @@ export const IndexPageTemplate = ({ image, title, subheading, mainpitch }) => (
         >
           {subheading}
         </h3>
-        <button className="button is-primary">Listen Now</button>
+        <a
+          href="https://soundcloud.com/user-163611181"
+          className="button is-primary"
+        >
+          Listen Now
+        </a>
       </div>
     </div>
     <section className="section section--gradient">
