@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Pinoys vs. the World
-image: /img/carmela-asistio-6wxqxprpl3w-unsplash.jpeg
+image: /img/mara-rivera-oxkijzscyjs-unsplash.jpg
 heading: Test
 subheading: Sharing stories through lived experiences
 mainpitch:
