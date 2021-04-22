@@ -35,7 +35,7 @@ export const IndexPageTemplate = ({ image, title, subheading, mainpitch }) => (
         >
           {title}
         </h1>
-        <h3
+        <p
           className="subtitle is-3 is-size-5-mobile is-size-5-tablet"
           style={{
             color: "#4056A1",
@@ -44,7 +44,7 @@ export const IndexPageTemplate = ({ image, title, subheading, mainpitch }) => (
           }}
         >
           {subheading}
-        </h3>
+        </p>
         <a
           href="https://soundcloud.com/user-163611181"
           className="button is-primary"

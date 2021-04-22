@@ -1161,6 +1161,16 @@
   "resolved" "https://registry.npmjs.org/@fontsource/josefin-sans/-/josefin-sans-4.2.2.tgz"
   "version" "4.2.2"
 
+"@fontsource/montserrat@^4.2.2":
+  "integrity" "sha512-HnlV9Xim2mYa56Bz/UIO5r26Rq/DJWlYdMWTql+TE6n3yYMe8YV6dTwPzTbkr35IsyDq6cWy0rPert9MWyA2yA=="
+  "resolved" "https://registry.npmjs.org/@fontsource/montserrat/-/montserrat-4.2.2.tgz"
+  "version" "4.2.2"
+
+"@fontsource/raleway@^4.2.2":
+  "integrity" "sha512-hRtk9NJpCpI3ru8EZdyWvS212Nx1UoHS52AwVxV/ltgfxYamLv7GurwcWzRNRuY3gi9c6PzErJQXyifFkxiHLQ=="
+  "resolved" "https://registry.npmjs.org/@fontsource/raleway/-/raleway-4.2.2.tgz"
+  "version" "4.2.2"
+
 "@graphql-tools/batch-execute@^7.1.0":
   "integrity" "sha512-Yb4QRpHZqDk24+T4K3ARk/KFU26Dyl30XcbYeVvIrgIKcmeON/p3DfSeiB0+MaxYlsv+liQKvlxNbeC2hD31pA=="
   "resolved" "https://registry.npmjs.org/@graphql-tools/batch-execute/-/batch-execute-7.1.0.tgz"
