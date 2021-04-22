@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby";
 import logo from "../img/logo.svg";
 import Layout from "../components/Layout";
 import BlogRoll from "../components/BlogRoll";
+import "@fontsource/josefin-sans/700.css";
 
 export const IndexPageTemplate = ({ image, title, subheading, mainpitch }) => (
   <div>
@@ -24,10 +25,12 @@ export const IndexPageTemplate = ({ image, title, subheading, mainpitch }) => (
           style={{ width: "14em", height: "10em" }}
         />
         <h1
-          className="title is-1 is-size-2-mobile is-size-1-widescreen has-text-bold"
+          className="title is-1 is-size-2-mobile"
           style={{
-            color: "white",
+            fontFamily: "Josefin Sans",
+            color: "#4056A1",
             lineHeight: "1",
+            padding: "0.25em",
           }}
         >
           {title}
@@ -35,7 +38,7 @@ export const IndexPageTemplate = ({ image, title, subheading, mainpitch }) => (
         <h3
           className="subtitle is-3 is-size-5-mobile is-size-5-tablet"
           style={{
-            color: "white",
+            color: "#4056A1",
             lineHeight: "1",
             padding: "0.25em",
           }}
