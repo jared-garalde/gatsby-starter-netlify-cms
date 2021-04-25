@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby";
 import logo from "../img/logo.svg";
 import Layout from "../components/Layout";
 import BlogRoll from "../components/BlogRoll";
+import InterviewRoll from "../components/InterviewRoll";
 import Player from "../components/Player";
 import "@fontsource/josefin-sans/700.css";
 
@@ -73,6 +74,17 @@ export const IndexPageTemplate = ({ image, title, subheading, mainpitch }) => (
                     Latest stories
                   </h3>
                   <BlogRoll />
+                  <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/blog">
+                      Read more
+                    </Link>
+                  </div>
+                </div>
+                <div className="column is-12 p-0">
+                  <h3 className="has-text-weight-semibold is-size-3">
+                    Latest Interviews
+                  </h3>
+                  <InterviewRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/blog">
                       Read more
