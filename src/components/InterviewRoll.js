@@ -14,21 +14,11 @@ class BlogRoll extends React.Component {
           posts.map(({ node: post }) => (
             <div className="is-parent column is-full" key={post.id}>
               <article
-                className={`blog-list-item tile is-child box notification media ${
+                className={`is-child card ${
                   post.frontmatter.featuredpost ? "is-featured" : ""
                 }`}
               >
-                <header className="media-left">
-                  {/* {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                        }}
-                      />
-                    </div>
-                  ) : null} */}
+                <div className="card-content">
                   <div className="post-meta content">
                     <p className="title has-text-primary is-4">
                       <Link
@@ -42,18 +32,20 @@ class BlogRoll extends React.Component {
                       {post.frontmatter.date}
                     </p>
                   </div>
-                </header>
-                <p className="media-content">
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link
-                    className="button is-primary is-outlined is-small"
-                    to={post.fields.slug}
-                  >
-                    Keep Reading →
-                  </Link>
-                </p>
+                  <div className="content">
+                    <p>
+                      {post.excerpt}
+                      <br />
+                      <br />
+                      <Link
+                        className="button is-primary is-outlined is-small"
+                        to={post.fields.slug}
+                      >
+                        Keep Reading →
+                      </Link>
+                    </p>
+                  </div>
+                </div>
               </article>
             </div>
           ))}
