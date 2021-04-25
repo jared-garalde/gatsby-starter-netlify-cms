@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: PINOYS VS. THE WORLD
-image: /img/patrick-jansen-m0fzzkiioi0-unsplash.jpg
+image: /img/seattle.jpg
 heading: Test
 subheading: Sharing stories through lived experiences
 mainpitch:
