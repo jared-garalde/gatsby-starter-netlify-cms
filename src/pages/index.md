@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: PINOYS VS. THE WORLD
-image: /img/space-needle-mono.jpg
+image: /img/space-needle-crop.jpg
 heading: Test
 subheading: Sharing stories through lived experiences
 mainpitch:
