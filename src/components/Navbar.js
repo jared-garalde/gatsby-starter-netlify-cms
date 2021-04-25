@@ -76,8 +76,16 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact">
                 Contact
               </Link>
-              <div className="navbar-item">
-                <div className="grouped icon-text">
+              <Link className="navbar-item" to="https://instagram.com/pinoysvs">
+                <div className="navbar-item button is-primary">
+                  <span className="icon is-small">
+                    <img src={instagram} alt="Instagram"></img>
+                  </span>
+                  <span className="icon-text">Follow Us</span>
+                </div>
+              </Link>
+              {/* <div className="navbar-item is-align-content-center">
+                <div className="icon-text">
                   <a
                     className="button is-primary"
                     href="https://instagram.com/pinoysvs"
@@ -90,7 +98,7 @@ const Navbar = class extends React.Component {
                     <span>Follow</span>
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
