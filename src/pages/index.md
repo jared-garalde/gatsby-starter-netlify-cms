@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Pinoys vs. the World
-image: /img/spaceneedle.jpg
+image: /img/space-header.png
 heading: Test
 subheading: Sharing stories through lived experiences
 mainpitch:
