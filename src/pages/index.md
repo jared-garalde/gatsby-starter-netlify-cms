@@ -6,8 +6,8 @@ heading: Test
 subheading: Sharing stories through lived experiences
 mainpitch:
   title: The Podcast
-  description: >
-    Pinoys vs. the World is a space to share their stories and bring in friends
-    and guests to share their lived experiences as a platform for solidarity,
-    community, and creativity. Hosted by Harald Hyllseth and Jess Juanich.
+  description: A podcast by two Filipino-Americans from Seattle sharing their
+    unique perspectives on local and world news along with a new interview every
+    episode from a friend in their wider Filipino community. New episodes every
+    two weeks posted on Saturdays @ noon!
 ---
