@@ -48,7 +48,7 @@ export const IndexPageTemplate = ({ image, title, subheading, mainpitch }) => (
           {subheading}
         </p>
         <a
-          href="https://redcircle.com/shows/pinoys-vs-the-world/episodes/1b701b97-f85b-4c4c-9cde-66a04e91e114"
+          href="https://redcircle.com/shows/pinoys-vs-the-world"
           className="button is-primary"
         >
           Listen Now
