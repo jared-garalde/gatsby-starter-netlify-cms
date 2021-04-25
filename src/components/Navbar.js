@@ -81,7 +81,7 @@ const Navbar = class extends React.Component {
                   <span className="icon is-small">
                     <img src={instagram} alt="Instagram"></img>
                   </span>
-                  <span className="icon-text">Follow Us</span>
+                  <span className="icon-text">Follow</span>
                 </div>
               </Link>
               {/* <div className="navbar-item is-align-content-center">
