@@ -1,9 +1,12 @@
 ---
 templateKey: about-page
 path: /about
-title: Mabuhay.
+title: About
 ---
-Welcome to Pinoys vs. the World! This is a podcast curated and hosted by Harald Hyllseth and Jess Juanich, two storytellers who share their perspectives as Filipino-Americans born and raised in Seattle. Developing both their creativity and leadership at Garfield High School, they walked the same halls as Seattle legends and Bulldog alumni Quincy Jones, Jimi Hendrix, Ernestine Anderson, and Cynthia Delostrinos. 
+![filipino flags](/img/mara-rivera-oxkijzscyjs-unsplash.jpg "Filipino Flags")
+
+###  Welcome to Pinoys vs. The World!
+This is a podcast curated and hosted by Harald Hyllseth and Jess Juanich, two storytellers who share their perspectives as Filipino-Americans born and raised in Seattle. Developing both their creativity and leadership at Garfield High School, they walked the same halls as Seattle legends and Bulldog alumni Quincy Jones, Jimi Hendrix, Ernestine Anderson, and Cynthia Delostrinos. 
 
 Their leadership and civic engagement remained at the crux of their undergraduate involvements both at Seattle University and Washington State University where they engaged in multicultural student experiences, public service, and music. Harald and Jess created this podcast with the need to center voices in communities that reflect their identities. 
 
@@ -11,7 +14,7 @@ With Harald’s lived experiences as a Native Alaskan/Indigeneous Tsimshian heri
 
 Pinoys vs. the World is a space for them to share their stories and bring in friends and guests to share their lived experiences as a platform for solidarity, community, and creativity. Check out their work on the website, SoundCloud, and Instagram. Stay tuned for more updates!
 
-## Resources
+### Resources
 
 #### Stop AAPI Hate
 
