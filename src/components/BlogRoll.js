@@ -14,11 +14,11 @@ class BlogRoll extends React.Component {
           posts.map(({ node: post }) => (
             <div className="is-parent column is-full" key={post.id}>
               <article
-                className={`blog-list-item tile is-child box notification ${
+                className={`is-child card ${
                   post.frontmatter.featuredpost ? "is-featured" : ""
                 }`}
               >
-                <header>
+                <div className="card-image">
                   {post.frontmatter.featuredimage ? (
                     <div className="featured-thumbnail">
                       <PreviewCompatibleImage
@@ -29,6 +29,8 @@ class BlogRoll extends React.Component {
                       />
                     </div>
                   ) : null}
+                </div>
+                <div className="card-content">
                   <p className="post-meta">
                     <Link
                       className="title has-text-primary is-4"
@@ -41,18 +43,20 @@ class BlogRoll extends React.Component {
                       {post.frontmatter.date}
                     </span>
                   </p>
-                </header>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link
-                    className="button is-primary is-outlined is-small"
-                    to={post.fields.slug}
-                  >
-                    Keep Reading →
-                  </Link>
-                </p>
+                  <div className="content">
+                    <p>
+                      {post.excerpt}
+                      <br />
+                      <br />
+                      <Link
+                        className="button is-primary is-outlined is-small"
+                        to={post.fields.slug}
+                      >
+                        Keep Reading →
+                      </Link>
+                    </p>
+                  </div>
+                </div>
               </article>
             </div>
           ))}
