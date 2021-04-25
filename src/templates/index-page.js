@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby";
 import logo from "../img/logo.svg";
 import Layout from "../components/Layout";
 import BlogRoll from "../components/BlogRoll";
+import Player from "../components/Player";
 import "@fontsource/josefin-sans/700.css";
 
 export const IndexPageTemplate = ({ image, title, subheading, mainpitch }) => (
