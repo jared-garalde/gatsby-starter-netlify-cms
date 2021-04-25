@@ -71,7 +71,7 @@ export const IndexPageTemplate = ({ image, title, subheading, mainpitch }) => (
                 </div>
                 <div className="column is-12 p-0">
                   <h3 className="has-text-weight-semibold is-size-3">
-                    Latest stories
+                    Latest Episodes
                   </h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
