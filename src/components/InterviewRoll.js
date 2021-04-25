@@ -29,18 +29,19 @@ class BlogRoll extends React.Component {
                       />
                     </div>
                   ) : null} */}
-                  <p className="post-meta">
-                    <Link
-                      className="title has-text-primary is-4"
-                      to={post.fields.slug}
-                    >
-                      {post.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                    <p className="subtitle is-6 is-spaced block">
+                  <div className="post-meta content">
+                    <p className="title has-text-primary is-4">
+                      <Link
+                        className="title has-text-primary is-4"
+                        to={post.fields.slug}
+                      >
+                        {post.frontmatter.title}
+                      </Link>
+                    </p>
+                    <p className="subtitle is-6 is-spaced">
                       {post.frontmatter.date}
                     </p>
-                  </p>
+                  </div>
                 </header>
                 <p className="media-content">
                   {post.excerpt}
