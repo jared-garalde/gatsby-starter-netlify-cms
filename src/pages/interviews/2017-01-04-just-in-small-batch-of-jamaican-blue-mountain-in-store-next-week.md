@@ -1,10 +1,11 @@
 ---
 templateKey: interview-post
-title: "Episode 1: What is Going On"
+title: "Interview with Jared Garalde"
 date: 2017-01-04T15:04:10.000Z
 description: We’re proud to announce that we’ll be offering a small batch of
   Jamaica Blue Mountain coffee beans in our store next week.
 featuredpost: true
+episode: /
 featuredimage: /img/federico-di-dio-photography-qfv5zfvmzok-unsplash.jpg
 tags:
   - jamaica
